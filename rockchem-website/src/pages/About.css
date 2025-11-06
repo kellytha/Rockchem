@@ -1,0 +1,68 @@
+.about-page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* clean white background */
+  color: #1a1a1a; /* strong dark text */
+}
+
+.about-hero {
+  background-color: #1a1a1a; /* dark hero section */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.about-hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  font-size: 1.5rem;
+  color: #e60023; /* RockChem red */
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.about-section p {
+  line-height: 1.7;
+  color: #333;
+}
+
+.about-section ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.about-benefits {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-benefits li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #1a1a1a;
+}
+
+.about-benefits li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #e60023; /* brand red checkmark */
+  font-weight: bold;
+}

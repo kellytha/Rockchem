@@ -1,0 +1,104 @@
+.testimonials-page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  color: #e60023; /* RockChem red */
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.intro-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.testimonial-list {
+  margin-bottom: 3rem;
+}
+
+.testimonial-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  color: #fbbf24; /* gold stars */
+  font-size: 1.1rem;
+}
+
+.feedback-text {
+  font-style: italic;
+  color: #333;
+}
+
+/* Form Section */
+.testimonial-form h2 {
+  color: #e60023;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.testimonial-form form {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  background-color: #e60023;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #c5001f;
+}
