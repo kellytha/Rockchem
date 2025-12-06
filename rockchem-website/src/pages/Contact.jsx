@@ -1,7 +1,34 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import EMAILJS_CONFIG from "../emailjsConfig"; // import keys
 import "./Contact.css";
 
 const Contact = () => {
+  const formRef = useRef();
+  const [status, setStatus] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        formRef.current,
+        EMAILJS_CONFIG.PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setStatus("SUCCESS");
+          formRef.current.reset();
+        },
+        (error) => {
+          console.error(error.text);
+          setStatus("FAILED");
+        }
+      );
+  };
+
   return (
     <div className="contact-page">
       <section className="contact-header">
@@ -10,7 +37,7 @@ const Contact = () => {
       </section>
 
       <section className="contact-form-section">
-        <form className="contact-form">
+        <form className="contact-form" ref={formRef} onSubmit={sendEmail}>
           <div className="form-group">
             <label htmlFor="name">Full Name *</label>
             <input type="text" id="name" name="name" required placeholder="Your name" />
@@ -32,6 +59,9 @@ const Contact = () => {
           </div>
 
           <button type="submit" className="submit-button">Send Message</button>
+
+          {status === "SUCCESS" && <p className="success-message">Your message has been sent successfully!</p>}
+          {status === "FAILED" && <p className="error-message">Something went wrong. Please try again.</p>}
         </form>
       </section>
 
@@ -46,4 +76,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
