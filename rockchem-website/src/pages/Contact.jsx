@@ -67,8 +67,8 @@ const Contact = () => {
 
       <section className="contact-info">
         <h2>Our Details</h2>
-        <p>Email: info@rockchem.co.za</p>
-        <p>Phone: +27 12 345 6789</p>
+        <p>Email: thabang@rockchemsolutions.co.za</p>
+        <p>Phone: +27 76 891 8779</p>
         <p>Serving: Gauteng, Limpopo, North West, Free State, Mpumalanga and Northern Cape</p>
       </section>
     </div>

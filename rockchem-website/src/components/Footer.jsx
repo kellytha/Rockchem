@@ -32,8 +32,8 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="footer-section">
             <h3>Contact Us</h3>
-            <p>Phone: +27 12 345 6789</p>
-            <p>Email: info@rockchem.co.za</p>
+            <p>Phone: +27 76 891 8779</p>
+            <p>Email: thabang@rockchemsolutions.co.za</p>
             
 
             {/* Social Media */}
