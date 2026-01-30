@@ -6,7 +6,7 @@ const services = [
     id: 1,
     title: "Chemical Rock Breaking",
     description:
-      "A safe and silent alternative to explosives using Nex-Pand. Ideal for urban environments and confined spaces.",
+      "A safe and silent alternative to explosives using expanding chemicals. Ideal for urban environments and confined spaces.",
   },
   {
     id: 2,
