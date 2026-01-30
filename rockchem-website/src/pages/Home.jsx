@@ -20,7 +20,7 @@ const Home = () => {
         <h2>Welcome to RockChem Solutions</h2>
         <p>
           RockChem Solutions is South Africa’s leader in non-explosive rock-breaking.
-          We specialise in safe, and environmentally friendly rock-breaking with Nex-Pand expanding chemical, which provides an 
+          We specialise in safe, and environmentally friendly rock-breaking with expanding chemical, which provides an 
           environmentally friendly alternative to traditional blasting method.
         </p>
       </section>
@@ -53,7 +53,7 @@ const Home = () => {
           <li> Environmentally friendly </li>
           <li> Cost Effective and Efficient </li>
           <li> Versatile Applications </li>
-          <li> Expert Service and Fast Turnaround</li>
+          <li> Expert Service </li>
         </ul>
       </section>
 

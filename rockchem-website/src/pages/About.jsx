@@ -24,11 +24,21 @@ const About = () => {
             To be South Afican's most trusted brand in non-explosive rock-breaking, setting the gold standard for innovation, safety, and sustainability.
           </p>
         </div>
+        <div>
+          <h2 className='executive'>Executive Summary</h2>
+          <p>RockChem Solutions is a specialised service provider offering non-explosive rock-breaking solutions using expanding chemicals.
+            Our services cater to mining operations, construction projects, civil and infrastructure development, where traditional blasting is impractical or restricted. 
+            we provide a safer, controlled, and cost-effective alternative to conventional methods.
+          </p>
+          <p>
+            Our goal is to fill strategic market gaps in <b>Gauteng, North West, Mpumalanga, and Limpopo,</b> Where demand for effecient, non-explosive rock-breaking is rising but still underserved.
+          </p>
+        </div>
 
         <div className="about-section">
           <h2>Company Background</h2>
           <p>
-            Founded in 2024, Rockchem solutions is a specialist provider of non-explosive rock-breaking services using Nex-Pand expanding chemical technology. We provide a safer, more regulated approach to traditional blasting - delivering proficient , cost-effective , and reliable results.
+            Founded in 2024, Rockchem solutions is a specialist provider of non-explosive rock-breaking services using expanding chemical technology. We provide a safer, more regulated approach to traditional blasting - delivering proficient , cost-effective , and reliable results.
           </p>
         </div>
 

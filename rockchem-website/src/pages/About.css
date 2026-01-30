@@ -1,12 +1,12 @@
 .about-page {
   padding: 2rem;
   font-family: Arial, sans-serif;
-  background-color: #ffffff; /* clean white background */
-  color: #1a1a1a; /* strong dark text */
+  background-color: #ffffff;
+  color: #1a1a1a; 
 }
 
 .about-hero {
-  background-color: #1a1a1a; /* dark hero section */
+  background-color: #1a1a1a; 
   color: white;
   padding: 2rem;
   text-align: center;
@@ -63,6 +63,9 @@
   content: "✔";
   position: absolute;
   left: 0;
-  color: #e60023; /* brand red checkmark */
+  color: #e60023; 
   font-weight: bold;
+}
+.executive {
+  color:red;
 }
