@@ -31,7 +31,7 @@ const Home = () => {
         <div className="service-cards">
           <div className="card">
             <h3>Chemical Rock Breaking</h3>
-            <p>Silent, vibration-free breaking for all rock types using Nex-Pand.</p>
+            <p>Silent, vibration-free breaking for all rock types using expanding chemicals.</p>
           </div>
           <div className="card">
             <h3>Trenching & Excavation</h3>
